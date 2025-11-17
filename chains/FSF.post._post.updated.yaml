@@ -1,0 +1,35 @@
+theory: {}
+likelihood:
+  lnlikehz:
+    type: []
+    speed: -1
+    stop_at_error: false
+    version: null
+    external: true
+    input_params:
+    - M
+    - H0
+    - Om
+    output_params: []
+prior: {}
+params:
+  M:
+    prior:
+      min: -19.5
+      max: 19.5
+    proposal: -19.960566059752253
+    latex: M
+  H0:
+    prior:
+      min: 40.0
+      max: 100.0
+    proposal: 68.13995087075624
+    latex: H_{0}
+  Om:
+    prior:
+      min: 0
+      max: 0.5
+    proposal: 0.32916158604696033
+    latex: O_{m}
+version: 3.5.7
+output: FSF.post._post

@@ -1,0 +1,31 @@
+likelihood:
+  lnlikehz: true
+params:
+  M:
+    prior:
+      min: -19.5
+      max: 19.5
+    proposal: -19.891333030243864
+    latex: M
+  H0:
+    prior:
+      min: 40.0
+      max: 100.0
+    proposal: 67.10578866852168
+    latex: H_{0}
+  Om:
+    prior:
+      min: 0
+      max: 0.5
+    proposal: 0.3259954100668737
+    latex: O_{m}
+  f:
+    prior:
+      min: 0
+      max: 5
+    proposal: 0.6829128378896276
+    latex: f
+sampler:
+  polychord:
+    nlive: 200
+output: Total
