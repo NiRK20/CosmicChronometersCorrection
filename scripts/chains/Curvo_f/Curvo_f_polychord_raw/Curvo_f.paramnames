@@ -1,0 +1,7 @@
+﻿h0	H_{0}
+wm	\Omega_{m}
+wl	\Omega_{\Lambda}
+f	f
+wk*	wk
+logprior__0*	\log\pi_\mathrm{0}
+loglike__lnlike*	\log\mathcal{L}_\mathrm{lnlike}
