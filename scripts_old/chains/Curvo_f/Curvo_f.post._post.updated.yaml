@@ -1,0 +1,40 @@
+theory: {}
+likelihood:
+  lnlike:
+    type: []
+    speed: -1
+    stop_at_error: false
+    version: null
+    external: true
+    input_params:
+    - h0
+    - wm
+    - wl
+    - f
+    output_params: []
+prior: {}
+params:
+  h0:
+    prior:
+      min: 40.0
+      max: 100.0
+    latex: H_{0}
+  wm:
+    prior:
+      min: 0.0
+      max: 3.0
+    latex: \Omega_{m}
+  wl:
+    prior:
+      min: -3.0
+      max: 3.0
+    latex: \Omega_{\Lambda}
+  wk:
+    derived: 'lambda wm, wl: 1 - wm - wl'
+  f:
+    prior:
+      min: 0.1
+      max: 2.0
+    latex: f
+version: 3.5.7
+output: Curvo_f.post._post

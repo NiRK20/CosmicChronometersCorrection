@@ -1,0 +1,29 @@
+likelihood:
+  lnlike:
+    external: true
+    input_params:
+    - h0
+    - wm
+    - wl
+params:
+  h0:
+    prior:
+      min: 40.0
+      max: 100.0
+    latex: H_{0}
+  wm:
+    prior:
+      min: 0.0
+      max: 3.0
+    latex: \Omega_{m}
+  wl:
+    prior:
+      min: -3.0
+      max: 3.0
+    latex: \Omega_{\Lambda}
+  wk:
+    derived: 'lambda wm, wl: 1 - wm - wl'
+sampler:
+  polychord:
+    nlive: 200
+output: Curvo_1
