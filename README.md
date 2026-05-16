@@ -31,6 +31,6 @@ A figura mostra os resultados para três estruturas diferentes para a matriz de 
 A tabela abaixo contém os resultados numéricos:
 | Combinação | $H_{0}$ | $\Omega_{m}$ | $f$ |
 | ---------- | ------- | ------------ | --- |
-|$C_{1}$ | $59.7 \pm 6.4$ | $0.38 \pm 0.07$ | $0.68 \pm 0.09 $|
-|$C_{2}$ | $62.7 ^{+5.1}_{-5.2}$ | $0.35 \pm 0.05$ | $0.70 \pm 0.10 $|
+|$C_{1}$ | $62.7 ^{+5.1}_{-5.2}$ | $0.35 \pm 0.05$ | $0.70 \pm 0.10 $|
+|$C_{2}$ | $59.7 \pm 6.4$ | $0.38 \pm 0.07$ | $0.68 \pm 0.09 $|
 |$C_{3}$ | $67.1 \pm 3.8$ | $0.33 \pm 0.05$ | $0.71 \pm 0.09 $|
